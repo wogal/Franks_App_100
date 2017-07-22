@@ -1,0 +1,90 @@
+apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.egs.wogal.forsale_items_sat_18_3_2017_100"
+        //    applicationId "com.egs.wogal.franks_sissios_app"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets { main { res.srcDirs = ['src/main/res', 'src/main/res/2'] } }
+}
+
+// apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+// apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.0'
+        classpath 'com.github.dcendents:android-maven-plugin:1.2'
+    }
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    apt 'com.jakewharton:butterknife-compiler:8.1.0'
+
+    //   compile 'com.android.support:appcompat-v7:25.3.0'
+    //  compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    //  compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+    //   compile 'com.facebook.android:facebook-android-sdk:4.19.0'
+    //  compile 'com.android.support:support-v4:25.3.0'
+    compile project(':facebook-android-sdk-4.21.0')
+
+// ***************************
+
+
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.android.support:design:25.0.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.facebook.android:facebook-android-sdk:4.+'
+    compile 'com.android.volley:volley:1.0.0'
+
+    compile 'com.jakewharton:butterknife:8.1.0'
+
+
+    testCompile 'junit:junit:4.12'
+
+
+    compile 'com.jakewharton:butterknife:8.1.0'
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

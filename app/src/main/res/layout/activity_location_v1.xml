@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/earle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+
+        <TextView
+            android:id="@+id/txt_location_header_v1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/obect_header_txt_v1_"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Select Location (v1)"
+            android:textAllCaps="false"
+            android:textColor="#F4511E"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_location_txt_v1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/obect_header_txt_v1_"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="-------"
+            android:textAllCaps="false"
+            android:textColor="#F4511E"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/RecView_Select_lcation_v1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:clipChildren="false"
+            android:keepScreenOn="false"
+            android:overScrollMode="never">
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/txt_location_v1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="-- -- -- -- -- -- -- -- -- "
+            android:textColor="#f41edf"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
