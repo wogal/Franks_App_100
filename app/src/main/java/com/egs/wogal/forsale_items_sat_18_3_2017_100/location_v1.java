@@ -19,10 +19,12 @@ public class location_v1 extends AppCompatActivity {
         mRecyclerView = (RecyclerView) findViewById( R.id.RecView_Select_lcation_v1 );
         LinearLayoutManager manager = new LinearLayoutManager( this );
         mRecyclerView.setLayoutManager( manager );
-        mRecyclerView.setAdapter( new Location_RecyclerViewcode( this, mBundle ) );
+       mRecyclerView.setAdapter( new Loca  Location_Recyclr_Adapter( this,null ) );
         SnapHelper snapHelper = new LinearSnapHelper();
         snapHelper.attachToRecyclerView( mRecyclerView );
 
+
+        Location_Recyclr_Adapt
 
 
     }
