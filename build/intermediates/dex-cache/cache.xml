@@ -12,20 +12,11 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\wogal\.android\build-cache\ba516992fe242a3dae7014396a9a6563c0cb5d4d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="163a02912c05c6ffb9ba560f9ecc6f604fa9e455">
-        <dex dex="C:\Users\wogal\Desktop\Master_Franks_App\Franks_App\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3495a88ee6057729e1ad08fcfb668c97eba28f6c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\wogal\Desktop\Master_Franks_App\Franks_App\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="8cd5e8462d580b4377bb67b44bb3153d5eb7ee0c">
+        sha1="2c0b692361c2cc78c5e09b558ce9711857623790">
         <dex dex="C:\Users\wogal\Desktop\Master_Franks_App\Franks_App\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4946ef0485d7b54ce3ade5362158f7fec0cac2a0\classes.dex" />
     </item>
 
