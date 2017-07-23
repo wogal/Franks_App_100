@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Instrumentation Location_Recyclr_Adapter, which will execute on an Android device.
+ * Instrumentation Location_Recycle_Adapter, which will execute on an Android device.
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
@@ -18,7 +18,7 @@ import static org.junit.Assert.assertEquals;
 public class ExampleInstrumentedTest {
     @Test
     public void useAppContext () throws Exception {
-        // Context of the app under Location_Recyclr_Adapter.
+        // Context of the app under Location_Recycle_Adapter.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals( "com.egs.wogal.forsale_items_sat_18_3_2017_100", appContext.getPackageName() );

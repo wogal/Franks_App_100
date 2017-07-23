@@ -4,7 +4,7 @@
               android:layout_height="75dp"
               android:orientation="horizontal"
               android:background="@drawable/bg_btn_login_background"
-              android:id="@+id/ItemView_v18"
+              android:id="@+id/ItemView_v3"
               android:padding="10dp">
 
 

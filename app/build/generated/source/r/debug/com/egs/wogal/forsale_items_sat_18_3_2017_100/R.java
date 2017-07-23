@@ -3735,7 +3735,7 @@ containing a value of this type.
         public static final int design_navigation_menu_item=0x7f04002d;
         public static final int design_text_input_password_icon=0x7f04002e;
         public static final int layout_v0=0x7f04002f;
-        public static final int location_v3=0x7f040030;
+        public static final int location_rec_view_v3 =0x7f040030;
         public static final int messenger_button_send_blue_large=0x7f040031;
         public static final int messenger_button_send_blue_round=0x7f040032;
         public static final int messenger_button_send_blue_small=0x7f040033;
