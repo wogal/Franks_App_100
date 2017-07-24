@@ -9,7 +9,7 @@
 
 
     <ImageView
-        android:id="@+id/Image_View_v18"
+        android:id="@+id/Image_View_v3"
         android:layout_width="86dp"
         android:layout_height="wrap_content"
         android:scaleType="fitStart"
@@ -18,7 +18,7 @@
         android:src="@drawable/for_sale_logo_640_480"/>
 
     <TextView
-        android:id="@+id/text_v18"
+        android:id="@+id/text_v3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"

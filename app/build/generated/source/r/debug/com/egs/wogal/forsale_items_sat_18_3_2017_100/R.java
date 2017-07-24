@@ -3484,7 +3484,7 @@ containing a value of this type.
     }
     public static final class id {
         public static final int Image_View_v18=0x7f0d00a7;
-        public static final int ItemView_v18=0x7f0d00a6;
+        public static final int ItemView_v3=0x7f0d00a6;
         public static final int RecView_Select_lcation_v1=0x7f0d0087;
         public static final int action0=0x7f0d00ad;
         public static final int action_bar=0x7f0d0075;
@@ -3735,7 +3735,7 @@ containing a value of this type.
         public static final int design_navigation_menu_item=0x7f04002d;
         public static final int design_text_input_password_icon=0x7f04002e;
         public static final int layout_v0=0x7f04002f;
-        public static final int location_rec_view_v3 =0x7f040030;
+        public static final int location_rec_view_v3=0x7f040030;
         public static final int messenger_button_send_blue_large=0x7f040031;
         public static final int messenger_button_send_blue_round=0x7f040032;
         public static final int messenger_button_send_blue_small=0x7f040033;
