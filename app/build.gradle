@@ -3,7 +3,7 @@ apply plugin: 'android-apt'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    buildToolsVersion "25.0.0"
     defaultConfig {
         applicationId "com.egs.wogal.forsale_items_sat_18_3_2017_100"
         //    applicationId "com.egs.wogal.franks_sissios_app"

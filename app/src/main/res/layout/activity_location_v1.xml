@@ -47,7 +47,7 @@
         <android.support.v7.widget.RecyclerView
             android:id="@+id/RecView_Select_lcation_v1"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="200dp"
             android:clipChildren="false"
             android:keepScreenOn="false"
             android:overScrollMode="never">
@@ -64,9 +64,12 @@
             android:padding="5dp"
             android:text="-- -- -- -- -- -- -- -- -- "
             android:textColor="#f41edf"
-            android:textSize="30dp"
+            android:textSize="25dp"
             android:textStyle="bold"/>
 
-
     </LinearLayout>
+
+
+
+
 </RelativeLayout>

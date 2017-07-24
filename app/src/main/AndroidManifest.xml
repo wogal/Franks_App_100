@@ -50,6 +50,8 @@
 
         <activity android:name=".location_v1">
         </activity>
+        <activity android:name=".test_actuivity">
+        </activity>
     </application>
 
 </manifest>

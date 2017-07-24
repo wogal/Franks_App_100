@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -19,18 +20,22 @@ public class Location_Recycle_Adapter extends RecyclerView.Adapter<Location_Recy
     private LayoutInflater inflater;
     private List<Location_Class> data = Collections.emptyList();
 
-    public Location_Recycle_Adapter (Context context, Object o,List<Location_Class> data_1) {
+    public Location_Recycle_Adapter (Context context, Object o) {
         inflater = LayoutInflater.from( context );
-        this.data = data_1;
+        this.data = setdummyData( 10 );
 
     }
 
-    private void setdummyData(int cnt){
-        data.clear();
-        for(int a=0;a!=cnt;a++){
-            Location_Class
-
+    private List<Location_Class> setdummyData (int cnt) {
+        String mStr;
+        data = new ArrayList<>();
+        for (int a = 0; a != cnt; a++) {
+            Location_Class locCls = new Location_Class();
+            mStr = String.format( "Cnt %d ", a + 1 );
+            locCls.set_LocationName( mStr );
+            data.add( locCls );
         }
+        return data;
     }
 
     @Override
@@ -48,7 +53,7 @@ public class Location_Recycle_Adapter extends RecyclerView.Adapter<Location_Recy
 
     @Override
     public int getItemCount () {
-        return 0;
+        return data.size();
     }
 
     class LocationViewHolder extends RecyclerView.ViewHolder {
@@ -56,7 +61,7 @@ public class Location_Recycle_Adapter extends RecyclerView.Adapter<Location_Recy
 
         public LocationViewHolder (View itemView) {
             super( itemView );
-            LocationTextView = (TextView) itemView.findViewById( R.id.text_v3 )
+            LocationTextView = (TextView) itemView.findViewById( R.id.text_v3 );
         }
     }
 }
