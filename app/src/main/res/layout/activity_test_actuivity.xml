@@ -7,4 +7,20 @@
     android:layout_height="match_parent"
     tools:context="com.egs.wogal.forsale_items_sat_18_3_2017_100.test_actuivity">
 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="101dp"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"/>
 </android.support.constraint.ConstraintLayout>

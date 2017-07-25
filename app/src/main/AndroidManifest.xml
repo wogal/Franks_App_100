@@ -52,6 +52,8 @@
         </activity>
         <activity android:name=".test_actuivity">
         </activity>
+        <activity android:name=".test_options_v2">
+        </activity>
     </application>
 
 </manifest>

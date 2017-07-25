@@ -14,6 +14,7 @@ public class Activity_Main_v0 extends AppCompatActivity implements View.OnClickL
 
     private final String TAG = "Init -";
     Button mBtn_startselling_vn;
+    private final boolean Enable_Testactions = true;
 
 
     // rename to Franks_App_100
@@ -38,7 +39,13 @@ public class Activity_Main_v0 extends AppCompatActivity implements View.OnClickL
         switch (v.getId()) {
             case R.id.butt_lets_start_eating_v0: {
                 Intent intent;
-                intent = new Intent( this, location_v1.class );
+                if(Enable_Testactions == true){
+                    intent = new Intent( this,test_options_v2.class );
+
+                }else {
+                    intent = new Intent( this, location_v1.class );
+                }
+
                 startActivity( intent );
 
             }
