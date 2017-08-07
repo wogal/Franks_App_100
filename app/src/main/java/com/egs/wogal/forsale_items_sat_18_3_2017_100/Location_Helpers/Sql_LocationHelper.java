@@ -97,7 +97,6 @@ public class Sql_LocationHelper extends SQLiteOpenHelper {
         }
 
 
-
         result = db.insert( TABLE_NAME, null, contentValues );
 
         if (result == -1)

@@ -6,12 +6,12 @@
         android:id="@+id/earle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingTop="20dp"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="false"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_alignParentBottom="false"
-        android:layout_centerHorizontal="false">
+        android:orientation="vertical"
+        android:paddingTop="20dp">
 
         <TextView
             android:id="@+id/txt_header_v2"
@@ -23,10 +23,10 @@
             android:gravity="center"
             android:padding="15dp"
             android:text="Test Options (v2)"
-            android:textColor="#F4511E"
             android:textAllCaps="false"
+            android:textColor="#F4511E"
             android:textSize="30dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/txt_v_sales_item_name_v2"
@@ -38,10 +38,10 @@
             android:gravity="center"
             android:padding="10dp"
             android:text="-------"
+            android:textAllCaps="false"
             android:textColor="#F4511E"
             android:textSize="30dp"
-            android:textAllCaps="false"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
 
 
         <Button
@@ -63,10 +63,11 @@
             android:layout_margin="10dp"
             android:background="@drawable/bg_btn_login_background"
             android:text="------------"
-            android:textColor="#ff07f7"
             android:textAllCaps="false"
+            android:textColor="#ff07f7"
             android:textSize="25dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
+
         <Button
             android:id="@+id/But_select_Post_File_Edit_v2"
             android:layout_width="match_parent"
@@ -74,10 +75,10 @@
             android:layout_margin="10dp"
             android:background="@drawable/bg_btn_login_background"
             android:text="-----------"
-            android:textColor="#dc46c8"
             android:textAllCaps="false"
+            android:textColor="#dc46c8"
             android:textSize="25dp"
-            android:textStyle="italic" />
+            android:textStyle="italic"/>
 
         <Button
             android:id="@+id/But_select_File_To_Post_v2"
@@ -86,10 +87,10 @@
             android:layout_margin="10dp"
             android:background="@drawable/bg_btn_login_background"
             android:text="--------------"
-            android:textColor="#df70da"
             android:textAllCaps="false"
+            android:textColor="#df70da"
             android:textSize="25dp"
-            android:textStyle="italic" />
+            android:textStyle="italic"/>
 
         <Button
             android:id="@+id/But_select_Text_2_speech_v2"
@@ -98,10 +99,10 @@
             android:layout_margin="10dp"
             android:background="@drawable/bg_btn_login_background"
             android:text="--------"
-            android:textColor="#df6412"
             android:textAllCaps="false"
+            android:textColor="#df6412"
             android:textSize="25dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
 
     </LinearLayout>
 </RelativeLayout>

@@ -5,10 +5,9 @@ package com.egs.wogal.forsale_items_sat_18_3_2017_100.Location_Helpers;
  */
 
 public class MySql_LocationHelper {
-  //  MySQLConnection
+    //  MySQLConnection
 
-    public void testDb(){
-
+    public void testDb () {
 
 
     }
