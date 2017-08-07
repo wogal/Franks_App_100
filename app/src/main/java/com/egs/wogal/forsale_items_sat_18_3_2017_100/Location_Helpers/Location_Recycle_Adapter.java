@@ -34,7 +34,7 @@ public class Location_Recycle_Adapter extends RecyclerView.Adapter<Location_Recy
         for (int a = 0; a != cnt; a++) {
             Location_Class locCls = new Location_Class();
             mStr = String.format( "Cnt %d ", a + 1 );
-            locCls.set_Location_Name( mStr );
+            locCls.set_Location_Name_COL_1( mStr );
             data.add( locCls );
         }
         return data;
@@ -50,7 +50,7 @@ public class Location_Recycle_Adapter extends RecyclerView.Adapter<Location_Recy
     @Override
     public void onBindViewHolder (LocationViewHolder holder, int position) {
         Location_Class current_loc_cls = data.get( position );
-        holder.LocationTextView.setText( current_loc_cls.get_Location_Name() );
+        holder.LocationTextView.setText( current_loc_cls.get_Location_Name_COL_1() );
     }
 
     @Override
