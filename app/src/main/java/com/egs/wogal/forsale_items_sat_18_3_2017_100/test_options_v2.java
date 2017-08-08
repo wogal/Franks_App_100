@@ -7,8 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.egs.wogal.forsale_items_sat_18_3_2017_100.Location_Helpers.Location_Class;
-import com.egs.wogal.forsale_items_sat_18_3_2017_100.Location_Helpers.Sql_LocationHelper;
+import com.egs.wogal.forsale_items_sat_18_3_2017_100.Location_Helpers.MySql_LocationHelper;
 
 public class test_options_v2 extends AppCompatActivity implements View.OnClickListener {
 
@@ -39,9 +38,15 @@ public class test_options_v2 extends AppCompatActivity implements View.OnClickLi
 
     private void make_data_base () {
         boolean ret_bol;
-        Sql_LocationHelper Sql_Loc_Helper = new Sql_LocationHelper( this );
-        Location_Class locCls = new Location_Class( "Sarnia", "", 123, 456, "Exmouth St", "2182", "156.80", "", "", "" );
-        ret_bol = Sql_Loc_Helper.addData( this, locCls );
+
+        MySql_LocationHelper mySqlHelper = new MySql_LocationHelper();
+      ret_bol =   mySqlHelper.testDb();
+
+
+
+     //   Sql_LocationHelper Sql_Loc_Helper = new Sql_LocationHelper( this );
+     //   Location_Class locCls = new Location_Class( "Sarnia", "", 123, 456, "Exmouth St", "2182", "156.80", "", "", "" );
+     //   ret_bol = Sql_Loc_Helper.addData( this, locCls );
         Toast.makeText( this, " Ret Value = " + ret_bol, Toast.LENGTH_LONG ).show();
     }
 }
