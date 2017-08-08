@@ -94,7 +94,7 @@ dependencies {
 
     compile 'com.jakewharton:butterknife:8.1.0'
 
-    compile files('libs/mysql-connector-java-5.1.40.jar')
+    compile files('libs/mysql-connector-java-5.1.43-bin.jar')
 
 
 }
